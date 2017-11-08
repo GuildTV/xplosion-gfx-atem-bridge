@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XplosionGFXKeyTie", "XplosionGFXKeyTie\XplosionGFXKeyTie.csproj", "{6B59BA9F-EA4F-4D3F-BB9E-6B88BAC275CA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibAtem", "LibAtem\LibAtem\LibAtem.csproj", "{6B3A2197-7B7C-41C8-A5B0-2F31B29F7B28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6B59BA9F-EA4F-4D3F-BB9E-6B88BAC275CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B59BA9F-EA4F-4D3F-BB9E-6B88BAC275CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B59BA9F-EA4F-4D3F-BB9E-6B88BAC275CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B3A2197-7B7C-41C8-A5B0-2F31B29F7B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B3A2197-7B7C-41C8-A5B0-2F31B29F7B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B3A2197-7B7C-41C8-A5B0-2F31B29F7B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B3A2197-7B7C-41C8-A5B0-2F31B29F7B28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
