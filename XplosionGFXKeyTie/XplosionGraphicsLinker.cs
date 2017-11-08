@@ -53,7 +53,7 @@ namespace XplosionGFXKeyTie
             Log.InfoFormat("Turning graphic to: {0}", cmd.OnAir);
 
             var uri = new Uri(string.Format("{0}/api/main", Config.GraphicsAddress));
-            var jsonInString = string.Format("{{\"Updates\":[{{\"key\":\"in\",\"value\":{0}}}]}}", cmd.OnAir);
+            var jsonInString = string.Format("{{\"Updates\":[{{\"key\":\"in\",\"value\":{0}}}]}}", cmd.OnAir.ToString().ToLower());
 
             var client = new HttpClient();
             client.PostAsync(uri, new StringContent(jsonInString, Encoding.UTF8, "application/json"));
